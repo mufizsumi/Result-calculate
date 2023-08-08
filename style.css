@@ -1,0 +1,85 @@
+body {
+    width: 99%;
+    height: 100%;
+    background-color: rgb(187, 241, 241);
+}
+
+.section {
+    text-align: center;
+    background-color: rgb(138, 255, 5);
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+    height: 420px;
+    box-shadow: 0 0 22px rgb(24, 27, 20);
+}
+
+.section-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form-table {
+     margin-top: 50px;
+}
+
+.head {
+    font-size: 32px;
+    color: rgb(53, 34, 34);
+    font-weight: bold;
+    text-transform: capitalize;
+    text-shadow: 0 0 12px rgb(174, 169, 169);
+}
+
+.form-number {
+    margin: 8px 0;
+    width: 260px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: bold;
+    text-transform: capitalize;
+    box-shadow: 0 0 12px rgb(121, 113, 113);
+}
+
+
+#total {
+    width: 100px;
+    margin-top: 38px;
+    background-color: rgb(187, 241, 241) ;
+}
+#total:hover {
+    width: 110px;
+    background-color: rgb(237, 70, 70);
+    cursor: pointer;
+    transition: 0.5s;
+    color: rgb(219, 214, 214);
+}
+
+#paragraph {
+    color:  rgb(53, 34, 34);
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .section {
+        margin: 100px 5%;
+    }
+    
+}
+
+/* For screens up to 576px width */
+@media (max-width: 576px) {
+    .section {
+        margin: 70px 3%;
+    }
+    .form-number {
+        max-width: 200px;
+    }
+}
+

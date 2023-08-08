@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Card</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="icon" href="./favicon.png.ico">
+</head>
+<body>
+   <div class="section">
+    <div class="section-bar">
+        <div class="head">
+           student check there <br> result here !!
+        </div>
+        <div class="form-table">
+            <div class="form-row">
+                <input type="text" placeholder="marks in physics" class="form-number" id="phy">
+            </div>
+            <div class="form-row">
+                <input type="text" placeholder="marks in chemistry" class="form-number" id="chm">
+            </div>
+            <div class="form-row">
+                <input type="text" placeholder="marks in math" class="form-number" id="math">
+            </div>
+            <div class="form-row">
+                <input type="text" placeholder="marks in english" class="form-number" id="eng">
+            </div>
+            <div class="form-row">
+                <input type="text" placeholder="marks in urdu" class="form-number " id="urdu">
+            </div>
+            <div class="form-row">
+                <input type="button" value="get result" class="form-number animate" onclick="calculate()" id="total" >
+            </div>
+            
+        </div>
+    </div>
+    <div class="para">
+        <p id="paragraph"></p>
+    </div>
+   </div>
+   <script src="./script.js"></script>
+</body>
+</html>
